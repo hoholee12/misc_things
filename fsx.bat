@@ -1,3 +1,4 @@
+@echo off
 dc64 -width=1280 -height=800
 start /wait steam -applaunch 314160
 set iamset=0

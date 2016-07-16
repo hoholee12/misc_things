@@ -547,6 +547,10 @@ int main(int argc, char **argv) {
 
 					fputs("upscale_multiplier=1\n", file2);
 				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=1\n", file2);
+				}
 				else if (!strcmp(strtok(buffer2, " ="), "filter")) {
 
 					fputs("filter=2\n", file2);
@@ -559,7 +563,15 @@ int main(int argc, char **argv) {
 		case 1:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
+				if (!strcmp(strtok(buffer2, " ="), "upscale_multiplier")) {
+
+					fputs("upscale_multiplier=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
 
 					fputs("Renderer=4\n", file2);
 				}
@@ -583,7 +595,15 @@ int main(int argc, char **argv) {
 		case 2:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
+				if (!strcmp(strtok(buffer2, " ="), "upscale_multiplier")) {
+
+					fputs("upscale_multiplier=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
 
 					fputs("Renderer=3\n", file2);
 				}
@@ -615,6 +635,10 @@ int main(int argc, char **argv) {
 
 					fputs("upscale_multiplier=2\n", file2);
 				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=0\n", file2);
+				}
 				else if (!strcmp(strtok(buffer2, " ="), "filter")) {
 
 					fputs("filter=1\n", file2);
@@ -631,6 +655,10 @@ int main(int argc, char **argv) {
 
 					fputs("upscale_multiplier=2\n", file2);
 				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=0\n", file2);
+				}
 				else if (!strcmp(strtok(buffer2, " ="), "filter")) {
 
 					fputs("filter=1\n", file2);
@@ -643,7 +671,15 @@ int main(int argc, char **argv) {
 		case 5:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
+				if (!strcmp(strtok(buffer2, " ="), "upscale_multiplier")) {
+
+					fputs("upscale_multiplier=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
 
 					fputs("Renderer=4\n", file2);
 				}
@@ -671,7 +707,15 @@ int main(int argc, char **argv) {
 		case 6:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
+				if (!strcmp(strtok(buffer2, " ="), "upscale_multiplier")) {
+
+					fputs("upscale_multiplier=2\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=0\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
 
 					fputs("Renderer=3\n", file2);
 				}
@@ -686,10 +730,6 @@ int main(int argc, char **argv) {
 				else if (!strcmp(strtok(buffer2, " ="), "paltex")) {
 
 					fputs("paltex=1\n", file2);
-				}
-				else if (!strcmp(strtok(buffer2, " ="), "upscale_multiplier")) {
-
-					fputs("upscale_multiplier=2\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "shaderfx")) {
 
@@ -723,6 +763,10 @@ int main(int argc, char **argv) {
 
 					fputs("upscale_multiplier=1\n", file2);
 				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=1\n", file2);
+				}
 				else if (!strcmp(strtok(buffer2, " ="), "filter")) {
 
 					fputs("filter=2\n", file2);
@@ -738,6 +782,10 @@ int main(int argc, char **argv) {
 				if (!strcmp(strtok(buffer2, " ="), "upscale_multiplier")) {
 
 					fputs("upscale_multiplier=2\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "nativeres")) {
+
+					fputs("nativeres=0\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "filter")) {
 

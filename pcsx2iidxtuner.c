@@ -7,7 +7,7 @@ give -3 on argv[2] for heavy hd rendering with MTVU
 give -4 on argv[2] for heavy hd rendering
 give -5 on argv[2] for pop'n music switch
 give -6 on argv[2] for 9th - 16th style HD alternative
-give -7 on argv[2] for ogl render + hwdepth
+give -7 on argv[2] for skipdraw
 give -8 on argv[2] for heavy sd rendering
 give -9 on argv[2] for light hd rendering
 
@@ -85,7 +85,7 @@ int main(int argc, char **argv) {
 			"\"-4\" for heavy hd rendering\n"
 			"\"-5\" for pop'n music games\n"
 			"\"-6\" for 9th - 16th style HD alternative\n"
-			"\"-7\" for ogl render + hwdepth\n"
+			"\"-7\" for skipdraw\n"
 			"\"-8\" for heavy sd rendering\n"
 			"\"-9\" for light hd rendering\n"
 			);
@@ -100,7 +100,7 @@ int main(int argc, char **argv) {
 			"\"-4\" for heavy hd rendering\n"
 			"\"-5\" for pop'n music games\n"
 			"\"-6\" for 9th - 16th style HD alternative\n"
-			"\"-7\" for ogl render + hwdepth\n"
+			"\"-7\" for skipdraw\n"
 			"\"-8\" for heavy sd rendering\n"
 			"\"-9\" for light hd rendering\n"
 			);
@@ -743,13 +743,9 @@ int main(int argc, char **argv) {
 		case 7:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "Renderer")) {
+				if (!strcmp(strtok(buffer2, " ="), "UserHacks_SkipDraw")) {
 
-					fputs("Renderer=12\n", file2);
-				}
-				else if (!strcmp(strtok(buffer2, " ="), "texture_cache_depth")) {
-
-					fputs("texture_cache_depth=1\n", file2);
+					fputs("UserHacks_SkipDraw=6\n", file2);
 				}
 				else {
 					fputs(buffer, file2);

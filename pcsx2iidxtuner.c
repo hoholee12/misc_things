@@ -204,11 +204,29 @@ int main(int argc, char **argv) {
 		case 2:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
+				if (!strcmp(strtok(buffer2, " ="), "EECycleRate")) {
+					fputs("EECycleRate=0\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
 					fputs("VUCycleSteal=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "IntcStat")) {
+					fputs("IntcStat=disabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "WaitLoop")) {
+					fputs("WaitLoop=disabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "vuFlagHack")) {
+					fputs("vuFlagHack=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuThread")) {
 					fputs("vuThread=enabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "VsyncEnable")) {
+					fputs("VsyncEnable=disabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "ManagedVsync")) {
+					fputs("ManagedVsync=disabled\n", file2);
 				}
 				else {
 						fputs(buffer, file2);
@@ -291,11 +309,29 @@ int main(int argc, char **argv) {
 		case 6:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
+				if (!strcmp(strtok(buffer2, " ="), "EECycleRate")) {
+					fputs("EECycleRate=0\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
 					fputs("VUCycleSteal=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "IntcStat")) {
+					fputs("IntcStat=disabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "WaitLoop")) {
+					fputs("WaitLoop=disabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "vuFlagHack")) {
+					fputs("vuFlagHack=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuThread")) {
 					fputs("vuThread=enabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "VsyncEnable")) {
+					fputs("VsyncEnable=disabled\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "ManagedVsync")) {
+					fputs("ManagedVsync=disabled\n", file2);
 				}
 				else {
 					fputs(buffer, file2);

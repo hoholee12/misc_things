@@ -1,6 +1,6 @@
 /*beatmania IIDX config switch by dxnoob
 
-give -0 on argv[2] for light sd rendering
+give -0 on argv[2] for light sd rendering - ed, edd, n eddy the mis-edventures(no paltex)
 give -1 on argv[2] for 3rd - 8th style switch
 give -2 on argv[2] for 9th - 16th style switch
 give -3 on argv[2] for heavy hd rendering with MTVU
@@ -8,7 +8,7 @@ give -4 on argv[2] for heavy hd rendering
 give -5 on argv[2] for pop'n music switch
 give -6 on argv[2] for 9th - 16th style HD alternative
 give -7 on argv[2] for skipdraw
-give -8 on argv[2] for heavy sd rendering
+give -8 on argv[2] for heavy sd rendering - hummer badlands(paltex, skipdraw = 2)
 give -9 on argv[2] for light hd rendering
 
 based on PCSX2 v1.2.1 - newer revisions just lag like hell :/
@@ -553,6 +553,11 @@ int main(int argc, char **argv) {
 
 					fputs("filter=2\n", file2);
 				}
+				//minor settings for ed, edd, n eddy the mis-edventures
+				else if (!strcmp(strtok(buffer2, " ="), "paltex")) {
+
+					fputs("paltex=0\n", file2);
+				}
 				else {
 					fputs(buffer, file2);
 				}
@@ -764,6 +769,15 @@ int main(int argc, char **argv) {
 				else if (!strcmp(strtok(buffer2, " ="), "filter")) {
 
 					fputs("filter=2\n", file2);
+				}
+				//minor settings for hummer badlands
+				else if (!strcmp(strtok(buffer2, " ="), "paltex")) {
+
+					fputs("paltex=1\n", file2);
+				}
+				else if (!strcmp(strtok(buffer2, " ="), "UserHacks_SkipDraw")) {
+
+					fputs("UserHacks_SkipDraw=2\n", file2);
 				}
 				else {
 					fputs(buffer, file2);

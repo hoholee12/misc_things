@@ -1,0 +1,52 @@
+
+my current powerplans:
+균형 조정 65p 450mhz
+인코딩 100p 450mhz
+고성능 99p 1050mhz
+절전 5p 450mhz
+
+cpu: -50.7812500mV
+cache: -50.7812500mV
+gpu: -50.7812500mV
+
+
+fan settings: 55c ~ 85c cpu core 1
+
+do not use balanced gpu!!
+
+this is to prevent current limit throttling!!
+:set every current/power limit to MAX
+:like 1023.875A/4095.875W
+
+
+
+best 'how to configure' Windows APM settings for macbook pro retina 13" retina early 2015 bootcamp(and all PC running Windows in general) by hoholee12
+
+i5-5257u CPU
+
+32p 0.8Ghz - lowest & slowest
+43p 0.9Ghz - lowest & slowest
+50p 1.2Ghz
+58p 1.4Ghz
+65p 1.6Ghz -> my ideal clockspeed for idle programs
+73p 1.8Ghz
+84p 2.0Ghz
+95p 2.3Ghz -> best for gta5
+98p 2.6Ghz
+99p 2.7Ghz
+100p 3.1Ghz - turboboost
+
+Iris6100 GPU
+
+maximum battery life - 450mhz
+balanced - random
+maximum performance - 1050mhz, slowly decreases when throttling
+
+
+create dozens of powerplans for each programs, and easily switch by using some automation tools like process lasso.
+
+for macbooks, use MacsFanControl for windows. set sensor-based value to CPU Core 0(or 1 on newer versions), the most responsive sensor(most responsive sensors are vital for preventing thermal throttling).
+
+starting some idle programs like chrome browser may burst up the cpu clock and in turn burst up fan speed(will make you wet pants). you dont want that. edit the existing idle powerplan you're using to lower the cpu clock. and create other powerplans for programs that really need cpu power.
+
+

@@ -220,7 +220,7 @@ int main(int argc, char **argv) {
 					fputs("vuFlagHack=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuThread")) {
-					fputs("vuThread=enabled\n", file2);
+					fputs("vuThread=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "VsyncEnable")) {
 					fputs("VsyncEnable=disabled\n", file2);
@@ -325,7 +325,7 @@ int main(int argc, char **argv) {
 					fputs("vuFlagHack=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuThread")) {
-					fputs("vuThread=enabled\n", file2);
+					fputs("vuThread=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "VsyncEnable")) {
 					fputs("VsyncEnable=disabled\n", file2);

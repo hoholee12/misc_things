@@ -1,10 +1,13 @@
 ::wait till XTU3SERVICE starts
-for /F "tokens=3 delims=: " %%H in ('sc query "XTU3SERVICE" ^| findstr "        ÏÉÅÌÉú"') do (
-	if /I "%%H" NEQ "RUNNING" (
-		exit /b
+:loop
+for /F "tokens=3 delims=: " %%H in ('sc query "XTU3SERVICE" ^| findstr "        ªÛ≈¬"') do (
+	if /I %%H EQU RUNNING (
+		goto cont
 	)
 	timeout 1
 )
+goto loop
+:cont
 
 ::voltage offset
 start /wait xtucli -t -id 34 -v -50.7812500
@@ -21,8 +24,8 @@ start /wait xtucli -t -id 48 -v 4095.875
 
 
 ::gpu ratio
-for /L %%n in (1,0,10) do (
-	::start /wait xtucli -t -id 59 -v 9.0
-	start /wait xtucli -t -id 59 -v 8.5
-	timeout 300
-)
+::for /L %%n in (1,0,10) do (
+::	::start /wait xtucli -t -id 59 -v 9.0
+::	start /wait xtucli -t -id 59 -v 8.5
+::	timeout 300
+::)

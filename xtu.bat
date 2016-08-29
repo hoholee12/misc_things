@@ -1,3 +1,4 @@
+@echo off
 ::wait till XTU3SERVICE starts
 :loop
 for /F "tokens=3 delims=: " %%H in ('sc query "XTU3SERVICE" ^| findstr "        ป๓ลย"') do (
@@ -17,9 +18,11 @@ start /wait xtucli -t -id 83 -v -50.7812500
 ::prevent power/current limit throttling
 start /wait xtucli -t -id 84 -v 1023.875
 start /wait xtucli -t -id 66 -v 100.0
+
 start /wait xtucli -t -id 49 -v 0
+::sometimes resets back
 ::start /wait xtucli -t -id 47 -v 4095.875 ::wont work if id 49 is 0
-start /wait xtucli -t -id 48 -v 4095.875
+::start /wait xtucli -t -id 48 -v 4095.875
 
 
 

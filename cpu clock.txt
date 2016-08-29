@@ -1,3 +1,16 @@
+use in windows task scheduler custom event xml:
+
+<QueryList>
+  <Query Id="0" Path="Application">
+    <Select Path="Application"> 
+         *[System[Provider[@Name='XTUService']]]
+         and
+         *[EventData[(Data='서비스가 시작되었습니다.')]] 
+       </Select>
+  </Query>
+</QueryList>
+
+
 
 my current powerplans:
 균형 조정 65p 450mhz
@@ -17,6 +30,8 @@ do not use balanced gpu!!
 this is to prevent current limit throttling!!
 :set every current/power limit to MAX
 :like 1023.875A/4095.875W
+
+:powerlimit(4095.875W) tends to reset itself sometimes...
 
 
 

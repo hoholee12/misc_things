@@ -1,5 +1,5 @@
 @echo off
-dc64 -width=1280 -height=720
+dc64 -width=800 -height=600 -fixedoutput=stretch
 steam -applaunch 271590
 set iamset=0
 :loop

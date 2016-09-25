@@ -22,7 +22,7 @@ start /wait xtucli -t -id 66 -v 100.0
 start /wait xtucli -t -id 49 -v 0
 ::sometimes resets back
 ::start /wait xtucli -t -id 47 -v 4095.875 ::wont work if id 49 is 0
-::start /wait xtucli -t -id 48 -v 4095.875
+start /wait xtucli -t -id 48 -v 125.000
 
 
 

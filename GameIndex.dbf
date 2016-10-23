@@ -21247,6 +21247,11 @@ Region = NTSC-J
 Serial = SLPM-65006
 Name   = Beatmania IIDX - 3rd Style
 Region = NTSC-J
+FramerateNTSC = 59.82
+VUCycleSteal = 0
+EECycleRate = 0
+vuThread = 0
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65007
 Name   = Roadsters Trophy 2000
@@ -21337,6 +21342,11 @@ Region = NTSC-J
 Serial = SLPM-65026
 Name   = Beatmania IIDX - 4th Style
 Region = NTSC-J
+FramerateNTSC = 59.82
+VUCycleSteal = 0
+EECycleRate = 0
+vuThread = 0
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65032
 Name   = Tokyo Bus Guide - Annai
@@ -21393,6 +21403,11 @@ Compat = 5
 Serial = SLPM-65049
 Name   = Beatmania IIDX - 5th Style - New Songs Collection
 Region = NTSC-J
+FramerateNTSC = 59.82
+VUCycleSteal = 0
+EECycleRate = 0
+vuThread = 0
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65050
 Name   = Yu-Gi-Oh! Shin Duel Monsters 2
@@ -21721,6 +21736,11 @@ Region = NTSC-J
 Serial = SLPM-65156
 Name   = Beatmania IIDX - 6th Style
 Region = NTSC-J
+FramerateNTSC = 59.82
+VUCycleSteal = 0
+EECycleRate = 0
+vuThread = 0
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65158
 Name   = Riding Spirits
@@ -23237,6 +23257,11 @@ Region = NTSC-J
 Serial = SLPM-65593
 Name   = Beatmania IIDX - 7th Style
 Region = NTSC-J
+FramerateNTSC = 59.82
+VUCycleSteal = 0
+EECycleRate = 0
+vuThread = 0
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65594
 Name   = Iris no Atelier: Eternal Mana
@@ -23882,6 +23907,11 @@ Region = NTSC-J
 Serial = SLPM-65768
 Name   = Beatmania IIDX - 8th Style
 Region = NTSC-J
+FramerateNTSC = 59.82
+VUCycleSteal = 0
+EECycleRate = 0
+vuThread = 0
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65769
 Name   = Pop'n Music 10 [with Pop'n Controller 2]
@@ -24555,6 +24585,7 @@ Serial = SLPM-65946
 Name   = Beatmania IIDX - 9th Style
 Region = NTSC-J
 Compat = 5
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-65947
 Name   = Killer 7
@@ -25382,6 +25413,7 @@ Region = NTSC-J
 Serial = SLPM-66180
 Name   = Beatmania IIDX - 10th Style
 Region = NTSC-J
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-66181
 Name   = Beat Down - Fists of Vengeance
@@ -26250,6 +26282,7 @@ Region = NTSC-J
 Serial = SLPM-66426
 Name   = Beatmania IIDX 11 - Red
 Region = NTSC-J
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-66427
 Name   = Full Spectrum Warrior - Ten Hammers
@@ -26985,6 +27018,7 @@ Region = NTSC-J
 Serial = SLPM-66621
 Name   = Beatmania IIDX 12 - Happy Sky
 Region = NTSC-J
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-66622
 Name   = Tom Clancy's Ghost Recon 2 [Ubisoft Best]
@@ -27765,6 +27799,7 @@ Region = NTSC-J
 Serial = SLPM-66828
 Name   = Beatmania IIDX 13 - DistorteD
 Region = NTSC-J
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLPM-66829
 Name   = Major League Baseball 2K7
@@ -36218,6 +36253,8 @@ Serial = SLUS-20561
 Name   = Disaster Report
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 0
+vuThread = 0
 ---------------------------------------------
 Serial = SLUS-20562
 Name   = dot Hack - Part 2 - Mutation
@@ -39461,6 +39498,7 @@ Serial = SLUS-21239
 Name   = Beatmania
 Region = NTSC-U
 Compat = 5
+VsyncEnable = 0
 ---------------------------------------------
 Serial = SLUS-21240
 Name   = Star Wars Battlefront II
@@ -40765,6 +40803,8 @@ Serial = SLUS-21501
 Name   = Raw Danger
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 0
+vuThread = 0
 ---------------------------------------------
 Serial = SLUS-21503
 Name   = God Hand

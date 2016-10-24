@@ -129,7 +129,7 @@ int main(int argc, char **argv) {
 
 
 	//PCSX2_vm.ini
-	printf("PCSX2_vm: ");
+	printf("PCSX2_vm:\t");
 	strcpy(address, pre);
 	strcat(address, "/PCSX2_vm.ini");
 	strcpy(address2, address);
@@ -392,7 +392,7 @@ int main(int argc, char **argv) {
 
 
 	//SPU2-X.ini
-	printf("SPU2-X: ");
+	printf("SPU2-X:\t\t");
 	strcpy(address, pre);
 	strcat(address, "/SPU2-X.ini");
 	strcpy(address2, address);
@@ -519,7 +519,7 @@ int main(int argc, char **argv) {
 
 
 	//GSdx.ini
-	printf("GSdx: ");
+	printf("GSdx:\t\t");
 	strcpy(address, pre);
 	strcat(address, "/GSdx.ini");
 	strcpy(address2, address);
@@ -831,7 +831,7 @@ int main(int argc, char **argv) {
 	}
 
 	//LilyPad.ini
-	printf("LilyPad: ");
+	printf("LilyPad:\t");
 	strcpy(address, pre);
 	strcat(address, "/LilyPad.ini");
 	strcpy(address2, address);

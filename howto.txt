@@ -1,0 +1,9 @@
+1. replace your pcsx2.exe with this pcsx2.exe
+2. copy pcsx2iidxtuner.exe to your pcsx2 directory(inis folder must be in the same directory)
+2. make lots of pcsx2iidxtuner.exe lnks(range 0~9)
+example:
+	create shortcut of pcsx2iidxtuner.exe
+	in shortcut properties, add '"inis" -(a number)' next to the path
+	create lots of shortcut like this so you can click them before starting pcsx2
+
+	just click pcsx2iidxtuner.exe without any parameter to see what the hacks are & what number is assigned to

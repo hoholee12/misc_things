@@ -27,6 +27,13 @@ void error(char *error) {
 
 }
 
+void notice(char *notice) {
+	printf("%s\n", notice);
+	system("pause");
+	exit(1);
+
+}
+
 void filecopy(char *in, char *out) {
 	FILE *file, *file2;
 	if ((file = fopen(in, "rb")) == NULL) {
@@ -76,7 +83,7 @@ int main(int argc, char **argv) {
 	char* temp = NULL;
 
 	if (argc == 1) {
-		error("nothing specified. i need a directory of ini folder\n"
+		notice("nothing specified. i need a directory of ini folder\n"
 			"parameter:\n"
 			"\"-0\" for light sd rendering\n"
 			"\"-1\" for 3rd - 8th style\n"
@@ -91,7 +98,7 @@ int main(int argc, char **argv) {
 			);
 	}
 	else if (argc == 2) {
-		error("requires option below\n"
+		notice("requires option below\n"
 			"parameter:\n"
 			"\"-0\" for light sd rendering\n"
 			"\"-1\" for 3rd - 8th style\n"
@@ -104,7 +111,7 @@ int main(int argc, char **argv) {
 			"\"-8\" for heavy sd rendering\n"
 			"\"-9\" for light hd rendering\n"
 			);
-	
+
 	}
 	if (argv[1]) strcpy(pre, argv[1]);
 	else error("what");
@@ -122,6 +129,7 @@ int main(int argc, char **argv) {
 
 
 	//PCSX2_vm.ini
+	printf("PCSX2_vm: ");
 	strcpy(address, pre);
 	strcat(address, "/PCSX2_vm.ini");
 	strcpy(address2, address);
@@ -152,16 +160,16 @@ int main(int argc, char **argv) {
 		case 0: //light sd rendering
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
-				
+
 				if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
 
-						fputs("VUCycleSteal=1\n", file2);
+					fputs("VUCycleSteal=1\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuThread")) {
 					fputs("vuThread=enabled\n", file2);
 				}
 				else {
-						fputs(buffer, file2);
+					fputs(buffer, file2);
 				}
 			}
 			break;
@@ -169,35 +177,35 @@ int main(int argc, char **argv) {
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
 				if (!strcmp(strtok(buffer2, " ="), "FramerateNTSC")) {
-						fputs("FramerateNTSC=59.82\n", file2);
+					fputs("FramerateNTSC=59.82\n", file2);
 				}
 				//disable speedhacks
 				else if (!strcmp(strtok(buffer2, " ="), "EECycleRate")) {
-						fputs("EECycleRate=0\n", file2);
+					fputs("EECycleRate=0\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
-						fputs("VUCycleSteal=0\n", file2);
+					fputs("VUCycleSteal=0\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "IntcStat")) {
-						fputs("IntcStat=disabled\n", file2);
+					fputs("IntcStat=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "WaitLoop")) {
-						fputs("WaitLoop=disabled\n", file2);
+					fputs("WaitLoop=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuFlagHack")) {
-						fputs("vuFlagHack=disabled\n", file2);
+					fputs("vuFlagHack=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "vuThread")) {
-						fputs("vuThread=disabled\n", file2);
+					fputs("vuThread=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "VsyncEnable")) {
-						fputs("VsyncEnable=disabled\n", file2);
+					fputs("VsyncEnable=disabled\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "ManagedVsync")) {
-						fputs("ManagedVsync=disabled\n", file2);
+					fputs("ManagedVsync=disabled\n", file2);
 				}
 				else {
-						fputs(buffer, file2);
+					fputs(buffer, file2);
 				}
 			}
 			break;
@@ -229,7 +237,7 @@ int main(int argc, char **argv) {
 					fputs("ManagedVsync=disabled\n", file2);
 				}
 				else {
-						fputs(buffer, file2);
+					fputs(buffer, file2);
 				}
 			}
 			break;
@@ -238,14 +246,14 @@ int main(int argc, char **argv) {
 				strcpy(buffer2, buffer);
 				/*
 				if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
-					temp = strtok(NULL, " =");
-					if (temp[0] - '0' > 0) {
-						fprintf(file2, "VUCycleSteal=%d\n", temp[0] - '0' - 1); //lighter stealing
-					}
-					else {
-						fprintf(file2, "VUCycleSteal=0\n");
-					
-					}
+				temp = strtok(NULL, " =");
+				if (temp[0] - '0' > 0) {
+				fprintf(file2, "VUCycleSteal=%d\n", temp[0] - '0' - 1); //lighter stealing
+				}
+				else {
+				fprintf(file2, "VUCycleSteal=0\n");
+
+				}
 				}
 				*/
 				if (!strcmp(strtok(buffer2, " ="), "VUCycleSteal")) {
@@ -367,9 +375,9 @@ int main(int argc, char **argv) {
 			}
 			break;
 		default:
-				for (; fgets(buffer, 1024, file); i++) {
-					fputs(buffer, file2);
-				}
+			for (; fgets(buffer, 1024, file); i++) {
+				fputs(buffer, file2);
+			}
 		}
 
 		fflush(file);
@@ -384,6 +392,7 @@ int main(int argc, char **argv) {
 
 
 	//SPU2-X.ini
+	printf("SPU2-X: ");
 	strcpy(address, pre);
 	strcat(address, "/SPU2-X.ini");
 	strcpy(address2, address);
@@ -510,6 +519,7 @@ int main(int argc, char **argv) {
 
 
 	//GSdx.ini
+	printf("GSdx: ");
 	strcpy(address, pre);
 	strcat(address, "/GSdx.ini");
 	strcpy(address2, address);
@@ -804,7 +814,7 @@ int main(int argc, char **argv) {
 				}
 			}
 
-		break;
+			break;
 		default:
 			for (; fgets(buffer, 1024, file); i++) {
 				strcpy(buffer2, buffer);
@@ -821,6 +831,7 @@ int main(int argc, char **argv) {
 	}
 
 	//LilyPad.ini
+	printf("LilyPad: ");
 	strcpy(address, pre);
 	strcat(address, "/LilyPad.ini");
 	strcpy(address2, address);

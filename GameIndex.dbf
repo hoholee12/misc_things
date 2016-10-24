@@ -10740,11 +10740,15 @@ EETimingHack = 1	//broken textures
 Serial = SLES-51968
 Name   = Spongebob Squarepants - Battle for Bikini Bottom
 Region = PAL-E
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-51970
 Name   = Spongebob Schwammkopf - Schlacht um Bikini Bottom
 Region = PAL-G
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-51972
 Name   = NBA Jam 2004
@@ -12729,10 +12733,14 @@ comment= Patch By Prafull
 // fix hang at loading screen
 patch=1,EE,0010f3e0,word,00000000
 [/patches]
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-52896
 Name   = Spongebob Squarepants - The Movie
 Region = PAL-F-G
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-52898
 Name   = King of Fighters - Maximum Impact
@@ -12960,6 +12968,8 @@ comment= Patch By Prafull
 // fix hang at loading screen
 patch=1,EE,0010f3e0,word,00000000
 [/patches]
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-52986
 Name   = Spongebob Squarepants - The Movie
@@ -12969,6 +12979,8 @@ comment= Patch By Prafull
 // fix hang at loading screen
 patch=1,EE,0010f3e0,word,00000000
 [/patches]
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-52988
 Name   = MegaMan X8
@@ -14393,6 +14405,8 @@ Region = PAL-M5
 Serial = SLES-53623
 Name   = Spongebob Squarepants - Battle for Bikini Bottom
 Region = PAL-F
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-53624
 Name   = Disney-Pixar's Cars
@@ -36789,6 +36803,8 @@ Serial = SLUS-20680
 Name   = SpongeBob SquarePants - The Battle for Bikini Bottoms
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLUS-20681
 Name   = Disney's The Haunted Mansion
@@ -37823,6 +37839,8 @@ comment= Patch By Prafull
 patch=1,EE,0010f3e0,word,00000000
 comment= this disc has the same crc as SLES-52895.
 [/patches]
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLUS-20905
 Name   = Incredibles, The
@@ -43470,4 +43488,24 @@ Region = NTSC-J
 Serial = TCPS-10172
 Name   = Homura [Taito the Best]
 Region = NTSC-J
+---------------------------------------------
+Serial = SLPM-55221
+Name   = BeatMania IIDX 16 EMPRESS [empress disc]
+Region = NTSC-J
+VsyncEnable = 0
+---------------------------------------------
+Serial = SLPM-55222
+Name   = BeatMania IIDX 16 EMPRESS [premium best disc]
+Region = NTSC-J
+VsyncEnable = 0
+---------------------------------------------
+Serial = SLPM-55117
+Name   = BeatMania IIDX 15 DJTROOPERS
+Region = NTSC-J
+VsyncEnable = 0
+---------------------------------------------
+Serial = SLPM-66995
+Name   = BeatMania IIDX 14 GOLD
+Region = NTSC-J
+VsyncEnable = 0
 ---------------------------------------------

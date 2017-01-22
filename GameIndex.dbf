@@ -10948,11 +10948,13 @@ Name   = Harry Potter and the Philosopher's Stone
 Region = PAL-M11
 Compat = 5
 EETimingHack = 1
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLES-52056
 Name   = Harry Potter and The Philosopher's Stone
 Region = PAL-M11
 EETimingHack = 1
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLES-52058
 Name   = Groove Rider - Slot Car Racing
@@ -23510,6 +23512,8 @@ Region = NTSC-J
 Serial = SLPM-65650
 Name   = Harry Potter and The Sorcerer's Stone [EA Best Hits]
 Region = NTSC-J
+EETimingHack = 1
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLPM-65651
 Name   = Kowloon Youma Gakuenki [Limited Edition]
@@ -37480,6 +37484,7 @@ Serial = SLUS-20826
 Name   = Harry Potter and The Sorceror's Stone
 Region = NTSC-U
 EETimingHack = 1
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLUS-20827
 Name   = Manhunt

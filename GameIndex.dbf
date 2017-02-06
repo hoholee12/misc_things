@@ -508,6 +508,8 @@ Region = NTSC-Unk
 Serial = SCAJ-20079
 Name   = Katamari Damacy
 Region = NTSC-Unk
+vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SCAJ-20080
@@ -734,6 +736,7 @@ Serial = SCAJ-20135
 Name   = Minna Daisuki Katamari Damacy
 Region = NTSC-Unk
 vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 MemCardFilter = SCAJ-20135/SLPS-25467/SLPS-73241/SCAJ-20079/SLPS-25360/SLPS-73210/SLPS-73240
 ---------------------------------------------
@@ -2852,6 +2855,8 @@ Compat = 5
 Serial = SCKA-20025
 Name   = Katamari Damacy
 Region = NTSC-K
+vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SCKA-20026
@@ -2939,6 +2944,7 @@ Serial = SCKA-20051
 Name   = Minna Daisuki Katamari Damacy
 Region = NTSC-K
 vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 MemCardFilter = SCKA-20051/SCKA-20025
 ---------------------------------------------
@@ -14864,6 +14870,7 @@ Serial = SLES-53828
 Name   = We Love Katamari
 Region = PAL-M4
 vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SLES-53829
@@ -31405,6 +31412,8 @@ Serial = SLPS-25360
 Name   = Katamari Damacy
 Region = NTSC-J
 Compat = 5
+vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SLPS-25361
@@ -31824,6 +31833,7 @@ Name   = Minna Daisuki Katamari Damacy
 Region = NTSC-J
 Compat = 5
 vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 MemCardFilter = SCAJ-20135/SLPS-25467/SLPS-73241/SCAJ-20079/SLPS-25360/SLPS-73210/SLPS-73240
 ---------------------------------------------
@@ -33589,6 +33599,8 @@ Region = NTSC-J
 Serial = SLPS-73210
 Name   = Katamari Damacy [PlayStation 2 The Best]
 Region = NTSC-J
+vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SLPS-73211
@@ -33709,12 +33721,15 @@ Region = NTSC-J
 Serial = SLPS-73240
 Name   = Katamari Damacy [PlayStation 2 The Best]
 Region = NTSC-J
+vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SLPS-73241
 Name   = Minna Daisuki Katamari Damacy [PlayStation 2 The Best]
 Region = NTSC-J
 vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 MemCardFilter = SCAJ-20135/SLPS-25467/SLPS-73241/SCAJ-20079/SLPS-25360/SLPS-73210/SLPS-73240
 ---------------------------------------------
@@ -38440,6 +38455,8 @@ Serial = SLUS-21008
 Name   = Katamari Damacy
 Region = NTSC-U
 Compat = 5
+vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 ---------------------------------------------
 Serial = SLUS-21009
@@ -39479,6 +39496,7 @@ Name   = We Love Katamari
 Region = NTSC-U
 Compat = 5
 vuClampMode = 3
+VUCycleSteal = 0
 mvuFlagSpeedHack = 0
 // allows import of constellations from Katamari Damacy
 MemCardFilter = SLUS-21230/SLUS-21008

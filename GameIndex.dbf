@@ -14593,34 +14593,42 @@ Serial = SLES-53706
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-E
 Compat = 5
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53707
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-G
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53708
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-I
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53709
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-DU-F
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53710
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-S
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53712
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-M3	// Scandinavia
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53713
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-Unk
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53715
 Name   = Disney's The Chronicles of Narnia - The Lion, The Witch, and The Wardrobe
 Region = PAL-R
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-53716
 Name   = Without Warning
@@ -32451,6 +32459,7 @@ Region = NTSC-J
 Serial = SLPS-25626
 Name   = Chronicles of Narnia, The - The Lion, The Witch and The Wardrobe
 Region = NTSC-J
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLPS-25627
 Name   = Mobile Suit Gundam Climax U.C.
@@ -38793,6 +38802,7 @@ Serial = SLUS-21082
 Name   = Chronicles of Narnia, The - The Lion, The Witch and The Wardrobe
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLUS-21083
 Name   = LEGO Star Wars
@@ -41880,6 +41890,7 @@ Serial = SLUS-21756
 Name   = Chronicles of Narnia, The - Prince Caspian
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLUS-21757
 Name   = Kung Fu Panda

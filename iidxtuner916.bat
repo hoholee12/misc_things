@@ -1,0 +1,1 @@
+pcsx2iidxtuner inis -2

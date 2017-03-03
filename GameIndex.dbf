@@ -106,6 +106,8 @@ Name   = Gran Turismo 4 - Toyota Prius [Trial]
 Region = NTSC-J
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = PBPX-95201
 Name   = Dead or Alive 2
@@ -123,6 +125,8 @@ Region = PAL-Unk
 Serial = PBPX-95503
 Name   = Gran Turismo 3 - A-Spec [PS2 Bundle]
 Region = NTSC-U
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = PBPX-95517
 Name   = Network Adapter Start-Up Disc
@@ -134,6 +138,8 @@ Region = NTSC-Unk
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 //[patches = CA6243B9]
 //	
 //	comment=patches by Nachbrenner
@@ -154,6 +160,8 @@ Region = NTSC-J
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 //[patches = E906EA37]
 //	
 //	comment=patches by mdr61
@@ -456,6 +464,8 @@ Region = NTSC-Unk
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCAJ-20067
@@ -1055,6 +1065,8 @@ Name   = Gran Turismo 4
 Region = NTSC-Unk
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCAJ-30007
@@ -1063,6 +1075,8 @@ Region = NTSC-Unk
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 //[patches = 7ABDBB5E]
 //	
@@ -1078,6 +1092,8 @@ Name   = Gran Turismo 4 [PlayStation 2 The Best]
 Region = NTSC-Unk
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCAJ-30010
@@ -1250,6 +1266,8 @@ Serial = SCES-50294
 Name   = Gran Turismo 3 A-Spec
 Region = PAL-M5
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCES-50295
 Name   = Dark Cloud
@@ -1440,11 +1458,15 @@ Region = PAL-M5
 Serial = SCES-50850
 Name   = Gran Turismo - Concept 2002 Tokyo-Geneva
 Region = PAL-Unk
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCES-50858
 Name   = Gran Turismo - Concept 2002 Tokyo-Geneva
 Region = PAL-M6
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCES-50878
 Name   = Tekken 4
@@ -1762,6 +1784,8 @@ Region = PAL-M5
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCES-51719/SCES-52438/SCES-50294
 ---------------------------------------------
 Serial = SCES-51725
@@ -1955,6 +1979,8 @@ Region = PAL-M5
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCES-51719/SCES-52438/SCES-50294
 ---------------------------------------------
 Serial = SCES-52456
@@ -2846,6 +2872,8 @@ Name   = Gran Turismo 4 Prologue
 Region = NTSC-K
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCKA-20023
 Name   = Fatal Frame 2
@@ -2878,6 +2906,8 @@ vuClampMode = 1	// Otherwise camera gets stuck off the player in various spots.
 Serial = SCKA-20029
 Name   = Gran Turismo Concept 2002 Tokyo-Seoul [PlayStation 2 Big Hit Series]
 Region = NTSC-K
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCKA-20032
 Name   = Syphon Filter - The Omega Virus
@@ -3109,6 +3139,8 @@ Name   = Gran Turismo 4
 Region = NTSC-K
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCKA-30002
 Name   = God of War
@@ -3324,11 +3356,15 @@ Compat = 5
 Serial = SCPS-15009
 Name   = Gran Turismo 3 - A-Spec
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-15010
 Name   = Gran Turismo - Concept 2001 Tokyo
 Region = NTSC-J
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-15011
 Name   = Extermination
@@ -3530,6 +3566,8 @@ Name   = Gran Turismo 4 - Prologue
 Region = NTSC-J
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCPS-15056
@@ -3824,6 +3862,8 @@ Region = NTSC-J
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCPS-17002
@@ -3919,6 +3959,8 @@ Region = NTSC-J
 Serial = SCPS-19208
 Name   = Gran Turismo - Concept 2001 Tokyo [PlayStation 2 The Best]
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-19209
 Name   = Boku no Summer Vacation [PlayStation 2 The Best]
@@ -3953,6 +3995,8 @@ Name   = Gran Turismo 4 [PlayStation 2 The Best]
 Region = NTSC-J
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCPS-19253
@@ -3976,6 +4020,8 @@ Name   = Gran Turismo 4 - Prologue [PlayStation 2 The Best]
 Region = NTSC-J
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCAJ-20066/SCAJ-30006/SCAJ-30007/SCAJ-30008/SCPS-15055/SCPS-17001/SCPS-19252/SCPS-19304/SCPS-15009/SCPS-55007
 ---------------------------------------------
 Serial = SCPS-19305
@@ -4167,6 +4213,8 @@ Region = NTSC-J
 Serial = SCPS-55005
 Name   = Gran Turismo - Concept 2001 Tokyo
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-55006
 Name   = Wild ARMs - Advanced 3rd
@@ -4175,6 +4223,8 @@ Region = NTSC-J
 Serial = SCPS-55007
 Name   = Gran Turismo 3 - A-Spec
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-55008
 Name   = Thunderstrike
@@ -4334,10 +4384,14 @@ Region = NTSC-J
 Serial = SCPS-55902
 Name   = Gran Turismo - Concept 2002 Tokyo-Geneva
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-55903
 Name   = Gran Turismo - Concept 2002 Tokyo-Geneva
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-56001
 Name   = Ico
@@ -4354,6 +4408,8 @@ Compat = 5
 Serial = SCPS-56005
 Name   = Gran Turismo Concept 2002 Tokyo-Seoul
 Region = NTSC-K
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCPS-56006
 Name   = Tekken 4
@@ -4420,6 +4476,8 @@ Serial = SCUS-97102
 Name   = Gran Turismo 3 - A-Spec
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCUS-97104
 Name   = ATV Off-Road Fury
@@ -4476,6 +4534,8 @@ Region = NTSC-U
 Serial = SCUS-97115
 Name   = Gran Turismo 3 - A-Spec [Demo]
 Region = NTSC-U
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCUS-97116
 Name   = Kiosk Demo Disc 2.01
@@ -4884,6 +4944,8 @@ Region = NTSC-U
 Serial = SCUS-97219
 Name   = Gran Turismo 3 - A-Spec - Nissan 350Z Edition
 Region = NTSC-U
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCUS-97220
 Name   = NHL FaceOff 2003
@@ -5200,6 +5262,8 @@ Region = NTSC-U
 Compat = 5
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 // allows car imports from GT3 or something
 MemCardFilter = SCUS-97328/SCUS-97436/SCUS-97102/SCUS-97219/SCUS-97512
 ---------------------------------------------
@@ -5370,6 +5434,8 @@ Region = NTSC-U
 Serial = SCUS-97384
 Name   = Gran Turismo Special Edition 2004 Toyota [Demo]
 Region = NTSC-U
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCUS-97392
 Name   = NBA '06 featuring The Life Vol.1 [Demo]
@@ -5537,6 +5603,8 @@ Name   = Gran Turismo 4 [Online Public Beta]
 Region = NTSC-U
 //eeClampMode = 3 // Text in races works
 vuClampMode = 2 // Text in GT mode works
+VUCycleSteal = 1
+vuThread = 1
 MemCardFilter = SCUS-97328/SCUS-97436/SCUS-97102/SCUS-97219/SCUS-97512
 ---------------------------------------------
 Serial = SCUS-97437
@@ -5811,6 +5879,8 @@ VIF1StallHack = 1		//HUD
 Serial = SCUS-97512
 Name   = Gran Turismo 3 - A-Spec [Greatest Hits]
 Region = NTSC-U
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCUS-97513
 Name   = Ratchet & Clank - Going Commando [Greatest Hits]

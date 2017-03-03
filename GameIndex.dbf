@@ -101,6 +101,12 @@
 ---------------------------------------------
 -- Game List
 ---------------------------------------------
+Serial = PAPX-90203
+Name   = Gran Turismo 2000
+Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
+---------------------------------------------
 Serial = PAPX-90512
 Name   = Gran Turismo 4 - Toyota Prius [Trial]
 Region = NTSC-J

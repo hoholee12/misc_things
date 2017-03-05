@@ -8,3 +8,9 @@ lwin::return
 
 ;disable alt + space
 !space::return
+
+;disable alt + esc
+!esc::return
+
+;disable ctrl + esc
+^esc::return

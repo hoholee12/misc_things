@@ -1020,6 +1020,7 @@ VUCycleSteal = 1
 Serial = SCAJ-25008
 Name   = Initial D - Street Stage
 Region = NTSC-Unk
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SCAJ-25012
 Name   = Final Fantasy X-2
@@ -6231,6 +6232,7 @@ Region = NTSC-Unk
 Serial = SLAJ-25008
 Name   = Initial D - Special Stage
 Region = NTSC-Unk
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLAJ-25011
 Name   = Shin Sangoku Musou 3
@@ -22200,6 +22202,7 @@ Region = NTSC-J
 Serial = SLPM-65268
 Name   = Initial D - Special Stage
 Region = NTSC-J
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLPM-65269
 Name   = NBA 2K3
@@ -28987,6 +28990,7 @@ Region = NTSC-J
 Serial = SLPM-74420
 Name   = Initial D - Street Stage [PlayStation 2 The Best]
 Region = NTSC-J
+VUCycleSteal = 0
 ---------------------------------------------
 Serial = SLPM-74421
 Name   = Virtual On - Marz [PlayStation 2 The Best]

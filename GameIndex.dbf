@@ -645,6 +645,8 @@ Region = NTSC-Unk
 Serial = SCAJ-20110
 Name   = Dragon Quest VIII - Sora to Daichi to Norowareshi Himegimi
 Region = NTSC-Unk
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SCAJ-20111
 Name   = Crash Bandicoot 5
@@ -15255,6 +15257,8 @@ Serial = SLES-53974
 Name   = Dragon Quest VIII - Journey of the Cursed King
 Region = PAL-M5
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLES-53976
 Name   = Evolution GT
@@ -20290,6 +20294,8 @@ Compat = 5
 Serial = SLPM-62490
 Name   = Dragon Quest VIII [Premium Disc]
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLPM-62491
 Name   = RockMan Power Battle Fighters
@@ -24491,6 +24497,8 @@ Serial = SLPM-65888
 Name   = Dragon Quest VIII
 Region = NTSC-J
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLPM-65889
 Name   = Kazoku Keikaku - Kokoro no Kizuna
@@ -26633,6 +26641,8 @@ Compat = 5
 Serial = SLPM-66481
 Name   = Dragon Quest VIII [Ultimate Hits]
 Region = NTSC-J
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLPM-66482
 Name   = Tokimeki Memorial - Girl's Side 2nd Kiss
@@ -39476,6 +39486,8 @@ Serial = SLUS-21207
 Name   = Dragon Quest VIII - Journey of the Cursed King
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLUS-21208
 Name   = Tony Hawk's American Wasteland
@@ -43369,6 +43381,8 @@ Region = NTSC-U
 Serial = SLUS-29157
 Name   = Dragon Quest VIII - Journey of the Cursed King [Demo]
 Region = NTSC-U
+VUCycleSteal = 1
+vuThread = 1
 ---------------------------------------------
 Serial = SLUS-29159
 Name   = One Piece - Grand Battle [Demo]

@@ -1,0 +1,3 @@
+pcsx2-v1.5.0-dev-1969-g41fb11d-windows-x86
+
+gsdx is horribly broken after this build

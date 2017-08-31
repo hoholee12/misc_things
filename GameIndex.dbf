@@ -498,6 +498,9 @@ Region = NTSC-Unk
 Serial = SCAJ-20073
 Name   = Jak and Daxter II
 Region = NTSC-Unk
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCAJ-20074
 Name   = King of Fighters 2002, The
@@ -1729,6 +1732,9 @@ MemCardFilter = SCES-51607/SCES-50916
 Serial = SCES-51608
 Name   = Jak & Daxter 2 - Renegade
 Region = PAL-M7
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCES-51610
 Name   = This is Football 2004 (Red Devils 2004)
@@ -2003,6 +2009,9 @@ Serial = SCES-52460
 Name   = Jak 3
 Region = PAL-M7
 Compat = 5
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCES-52529
 Name   = Sly Racoon 2 - Band of Thieves
@@ -2835,6 +2844,9 @@ EETimingHack = 1 // Else serious slowdown due to VIF timing. Can be disabled onc
 Serial = SCKA-20010
 Name   = Jak II
 Region = NTSC-K
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCKA-20011
 Name   = Ratchet & Clank 2
@@ -2950,6 +2962,9 @@ Region = NTSC-K
 Serial = SCKA-20040
 Name   = Jak 3
 Region = NTSC-K
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCKA-20043
 Name   = Magna Carta
@@ -3420,6 +3435,9 @@ Region = NTSC-J
 Serial = SCPS-15021
 Name   = Jak & Daxter 2
 Region = NTSC-J
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCPS-15022
 Name   = Dual Hearts
@@ -3587,6 +3605,9 @@ MemCardFilter = SCPS-15056/SCPS-15037
 Serial = SCPS-15057
 Name   = Jak & Daxter 2
 Region = NTSC-J
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCPS-15058
 Name   = Arc the Lad - Generation
@@ -5129,6 +5150,9 @@ Serial = SCUS-97265
 Name   = Jak II
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97266
 Name   = Final Fantasy XI [Disc1of2]
@@ -5161,10 +5185,16 @@ Region = NTSC-U
 Serial = SCUS-97273
 Name   = Jak II [Demo]
 Region = NTSC-U
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97274
 Name   = Jak II [Video Demo]
 Region = NTSC-U
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97275
 Name   = SOCOM II - U.S. Navy SEALs
@@ -5284,6 +5314,9 @@ Serial = SCUS-97330
 Name   = Jak 3
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97331
 Name   = Official U.S. PlayStation Magazine Demo Disc 078
@@ -5522,6 +5555,9 @@ Region = NTSC-U
 Serial = SCUS-97412
 Name   = Jak 3 [Demo]
 Region = NTSC-U
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97413
 Name   = Ratchet & Clank - Up Your Arsenal [Public Beta v1.0]
@@ -5873,6 +5909,9 @@ Region = NTSC-U
 Serial = SCUS-97509
 Name   = Jak II [Greatest Hits]
 Region = NTSC-U
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97510
 Name   = ATV Off-Road Fury 2 [Greatest Hits]
@@ -5906,6 +5945,9 @@ Region = NTSC-U
 Serial = SCUS-97516
 Name   = Jak 3 [Greatest Hits]
 Region = NTSC-U
+VUCycleSteal = 0
+VuThread = 1
+EECycleRate = 2
 ---------------------------------------------
 Serial = SCUS-97517
 Name   = Killzone [Greatest Hits]
@@ -6443,6 +6485,7 @@ Region = NTSC-Unk
 Serial = SLAJ-25095
 Name   = Medal of Honor - Vanguard
 Region = NTSC-Unk
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLAJ-25096
 Name   = Musou Orochi
@@ -8071,6 +8114,7 @@ Serial = SLES-50684
 Name   = Medal of Honor - Frontline
 Region = PAL-M3
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-50686
 Name   = Iron Aces 2 - Birds of Prey
@@ -8460,6 +8504,7 @@ Region = PAL-F
 Serial = SLES-50846
 Name   = Medal of Honor - Frontline
 Region = PAL-G
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-50848
 Name   = Speed Kings
@@ -10599,18 +10644,22 @@ Serial = SLES-51873
 Name   = Medal of Honor - Rising Sun
 Region = PAL-M5
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-51874
 Name   = Medal of Honor - Rising Sun
 Region = PAL-F
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-51875
 Name   = Medal of Honor - Rising Sun
 Region = PAL-G
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-51876
 Name   = Medal of Honor - Rising Sun
 Region = PAL-F
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-51877
 Name   = Bloody Roar 4
@@ -13803,22 +13852,27 @@ Serial = SLES-53332
 Name   = Medal of Honor - European Assault
 Region = PAL-M4
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-53333
 Name   = Medal of Honor - Les Faucons de Guerre
 Region = PAL-F
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-53334
 Name   = Medal of Honor - European Assault
 Region = PAL-G
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-53335
 Name   = Medal of Honor - European Assault
 Region = PAL-I
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-53336
 Name   = Medal of Honor - European Assault
 Region = PAL-S
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-53338
 Name   = Victorious Boxers 2 - Fighting Spirit
@@ -15663,6 +15717,7 @@ Serial = SLES-54171
 Name   = Yakuza
 Region = PAL-M5
 Compat = 5
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-54172
 Name   = Garfield 2 - Tale of Two Kitties
@@ -16657,6 +16712,7 @@ Region = PAL-E
 Serial = SLES-54683
 Name   = Medal of Honor - Vanguard
 Region = PAL-M9
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLES-54686
 Name   = Impossible Mission
@@ -17310,6 +17366,7 @@ Name   = Yakuza 2
 Region = PAL-E
 // allows import of Yakuza 1 data
 MemCardFilter = SLES-55242/SLES-54171
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLES-55243
 Name   = FIFA 09
@@ -18392,6 +18449,7 @@ Region = NTSC-K
 Serial = SLKA-25243
 Name   = Medal of Honor - European Assault
 Region = NTSC-K
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLKA-25244
 Name   = WWE SmackDown! vs. Raw
@@ -23604,6 +23662,7 @@ Region = NTSC-J
 Serial = SLPM-65648
 Name   = Medal of Honor - Frontline [EA Best Hits]
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-65649
 Name   = NBA Street 2 [EA Best Hits]
@@ -23993,6 +24052,7 @@ Region = NTSC-J
 Serial = SLPM-65757
 Name   = Medal of Honor - Rising Sun [EA Best Hits]
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-65758
 Name   = Sonic Mega Collection Plus
@@ -26773,6 +26833,7 @@ Region = NTSC-J
 Serial = SLPM-66514
 Name   = Medal of Honor - European Assault [EA Best Hits]
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-66515
 Name   = Star Wars - Episode III - Sith no Fukushuu [EA Best Hits]
@@ -27131,6 +27192,7 @@ Region = NTSC-J
 Serial = SLPM-66613
 Name   = Medal of Honor - Rising Sun & Frontline [EA Best Hits]
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-66615
 Name   = James Bond 007 - Everything or Nothing & Nightfire [EA Best Hits]
@@ -27657,6 +27719,7 @@ Region = NTSC-J
 Serial = SLPM-66752
 Name   = Medal of Honor - Vanguard
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-66753
 Name   = Getsumento Heiki Mina - Futatsu no Project M [Limited Edition]
@@ -28430,6 +28493,7 @@ Region = NTSC-J
 Serial = SLPM-66963
 Name   = Medal of Honor - Frontline [EA-SY! 1980]
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-66964
 Name   = Guilty Gear XX - Accent Core Plus [Append Edition]
@@ -28546,6 +28610,7 @@ Compat = 5
 Serial = SLPM-67004
 Name   = Medal of Honor - Rising Sun
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPM-67005
 Name   = Lord of the Rings, The - The Return of the King
@@ -30802,6 +30867,7 @@ Region = NTSC-J
 Serial = SLPS-25151
 Name   = Medal of Honor - Jishousaidai no Sakusen
 Region = NTSC-J
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLPS-25154
 Name   = Flower, Sun and Rain [Victor The Best]
@@ -35536,6 +35602,7 @@ Serial = SLUS-20368
 Name   = Medal of Honor - Frontline
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLUS-20369
 Name   = Knockout Kings 2002
@@ -37276,6 +37343,7 @@ Serial = SLUS-20753
 Name   = Medal of Honor - Rising Sun
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLUS-20754
 Name   = NASCAR Thunder 2004
@@ -39444,6 +39512,7 @@ Serial = SLUS-21199
 Name   = Medal of Honor - European Assault
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLUS-21200
 Name   = Armored Core - Nine Breaker
@@ -40208,6 +40277,7 @@ Serial = SLUS-21348
 Name   = Yakuza
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLUS-21349
 Name   = Taito Legends 2
@@ -41266,6 +41336,7 @@ Serial = SLUS-21597
 Name   = Medal of Honor - Vanguard
 Region = NTSC-U
 Compat = 5
+VUCycleSteal = 3
 ---------------------------------------------
 Serial = SLUS-21598
 Name   = Digimon World - Data Squad
@@ -42045,6 +42116,7 @@ Region = NTSC-U
 Compat = 5
 // allows import of Yakuza 1 data
 MemCardFilter = SLUS-21769/SLUS-21348
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLUS-21770
 Name   = Madden NFL '09
@@ -43484,6 +43556,7 @@ Region = NTSC-U
 Serial = SLUS-29195
 Name   = Yakuza [Demo]
 Region = NTSC-U
+VUCycleSteal = 1
 ---------------------------------------------
 Serial = SLUS-29196
 Name   = Destroy All Humans! 2 [Demo]

@@ -1,4 +1,4 @@
-/*beatmania IIDX config switch by dxnoob
+/*pcsx2 detailed config switch by djmanual
 
 give -0 on argv[2] for light sd rendering - ed, edd, n eddy the mis-edventures(no paltex)
 give -1 on argv[2] for 3rd - 8th style switch
@@ -7,11 +7,11 @@ give -3 on argv[2] for heavy hd rendering with MTVU
 give -4 on argv[2] for heavy hd rendering
 give -5 on argv[2] for pop'n music switch
 give -6 on argv[2] for 9th - 16th style HD alternative
-give -7 on argv[2] for skipdraw
-give -8 on argv[2] for heavy sd rendering - hummer badlands(paltex, skipdraw = 2)
+give -7 on argv[2] for skipdraw(any games)
+give -8 on argv[2] for heavy sd rendering - madagascar(paltex, skipdraw = 2)
 give -9 on argv[2] for light hd rendering
 
-based on PCSX2 v1.2.1 - newer revisions just lag like hell :/
+based on PCSX2 v1.3.1 BGI Version - newer revisions just lag like hell :/
 */
 
 
@@ -85,30 +85,30 @@ int main(int argc, char **argv) {
 	if (argc == 1) {
 		notice("nothing specified. i need a directory of ini folder\n"
 			"parameter:\n"
-			"\"-0\" for light sd rendering\n"
+			"\"-0\" for light sd rendering - ed, edd, n eddy the mis-edventures(no paltex)\n"
 			"\"-1\" for 3rd - 8th style\n"
 			"\"-2\" for 9th - 16th style\n"
 			"\"-3\" for heavy hd rendering with MTVU\n"
 			"\"-4\" for heavy hd rendering\n"
 			"\"-5\" for pop'n music games\n"
 			"\"-6\" for 9th - 16th style HD alternative\n"
-			"\"-7\" for skipdraw\n"
-			"\"-8\" for heavy sd rendering\n"
+			"\"-7\" for skipdraw(any games)\n"
+			"\"-8\" for heavy sd rendering - madagascar(paltex, skipdraw = 2)\n"
 			"\"-9\" for light hd rendering\n"
 			);
 	}
 	else if (argc == 2) {
 		notice("requires option below\n"
 			"parameter:\n"
-			"\"-0\" for light sd rendering\n"
+			"\"-0\" for light sd rendering - ed, edd, n eddy the mis-edventures(no paltex)\n"
 			"\"-1\" for 3rd - 8th style\n"
 			"\"-2\" for 9th - 16th style\n"
 			"\"-3\" for heavy hd rendering with MTVU\n"
 			"\"-4\" for heavy hd rendering\n"
 			"\"-5\" for pop'n music games\n"
 			"\"-6\" for 9th - 16th style HD alternative\n"
-			"\"-7\" for skipdraw\n"
-			"\"-8\" for heavy sd rendering\n"
+			"\"-7\" for skipdraw(any games)\n"
+			"\"-8\" for heavy sd rendering - madagascar(paltex, skipdraw = 2)\n"
 			"\"-9\" for light hd rendering\n"
 			);
 
@@ -116,9 +116,7 @@ int main(int argc, char **argv) {
 	if (argv[1]) strcpy(pre, argv[1]);
 	else error("what");
 
-	printf("beatmania IIDX 3rd - 8th style config switch\n"
-		"for pcsx2 v1.2.1 and older revs\n"
-		"made by dxnoob\n"
+	printf("pcsx2 detailed config switch by djmanual\n"
 		"have fun!\n"
 		);
 
@@ -430,7 +428,7 @@ int main(int argc, char **argv) {
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Latency")) {
 
-					fputs("Latency=3\n", file2);
+					fputs("Latency=30\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Output_Module")) {
 
@@ -450,7 +448,7 @@ int main(int argc, char **argv) {
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Latency")) {
 
-					fputs("Latency=3\n", file2);
+					fputs("Latency=30\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Output_Module")) {
 
@@ -470,7 +468,7 @@ int main(int argc, char **argv) {
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Latency")) {
 
-					fputs("Latency=3\n", file2);
+					fputs("Latency=30\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Output_Module")) {
 
@@ -490,7 +488,7 @@ int main(int argc, char **argv) {
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Latency")) {
 
-					fputs("Latency=3\n", file2);
+					fputs("Latency=30\n", file2);
 				}
 				else if (!strcmp(strtok(buffer2, " ="), "Output_Module")) {
 
